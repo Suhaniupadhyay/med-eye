@@ -1,4 +1,5 @@
 medeye-env/ 
 __pycache__/ 
+output.mp3
 *.pyc 
 .env 
