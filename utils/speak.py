@@ -17,3 +17,8 @@ def speak_medicines(medicines_dict):
 
     engine.say(message)
     engine.runAndWait()
+
+engine = pyttsx3.init()
+voices = engine.getProperty('voices')
+for voice in voices:
+    print(voice.id, "-", voice.name)
